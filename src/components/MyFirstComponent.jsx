@@ -16,7 +16,7 @@ export const MyFirstComponent = () => {
   return (
     <>
      <div>MyFirstComponent</div>
-     <div  className="container bg-info-subtle mt-4">
+     <div  className="container e mt-4">
      <h1>Temas de REACT</h1>
         <ol>
          <li>Componentes</li>
@@ -25,19 +25,19 @@ export const MyFirstComponent = () => {
          <li>Props</li>
         </ol>
      </div>
-     <div  className="container bg-warning-subtle pb-2 pt-2">
+     <div  className="container pb-2 pt-2">
      <h1>Datos del Docente</h1>
         <p>Nombre: <strong>{ name }</strong></p>
         <p>Github: <a href="">{ github_profile } </a> </p>
      </div>
-     <div  className="container bg-dark-subtle pb-2 pt-2">
+     <div  className="container  pb-2 pt-2">
      <h1>Datos del Estudiante</h1>
         <p>Nombre: <strong>{ student.name }</strong></p>
         <p>Apellido: { student.last_name }  </p>
         <p>Celular: { student.mobile }</p>
         <p>Linkelin: <a href={ student.linkelin_profile }>{ student.linkelin_profile }</a></p>
      </div>
-        <div className="container bg-success-subtle mt-2 pt-2 ">
+        <div className="container mt-2 pt-2 ">
           <h1 >Objeto Completo</h1>
           <pre>{ JSON.stringify(student) }</pre>
           </div>    

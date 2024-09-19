@@ -18,17 +18,15 @@ export const SecondComponent = () => {
     <>
         <h1>SecondComponent</h1>
         <div>
-         <ul>
+          <ul>
             {
-         books.map((book, index) => {
+             books.map((book, index) => {
              return <li key={index}> 
              {book}
              </li>
-         })
-        }    
-
-         </ul>
-   
+             })
+            }    
+          </ul>
         </div>
     </>
   )
