@@ -16,7 +16,7 @@ export const MyFirstComponent = () => {
   return (
     <>
      <div>MyFirstComponent</div>
-     <div  className="container e mt-4">
+     <div  className="container  mt-4">
      <h1>Temas de REACT</h1>
         <ol>
          <li>Componentes</li>

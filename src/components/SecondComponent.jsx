@@ -12,20 +12,26 @@ export const SecondComponent = () => {
    "Harry Potter y reliquias de la muerte ",
     ]
      
-  
+  // condicion ? ( si_verdadero) : (si_falso)
 
   return (
     <>
         <h1>SecondComponent</h1>
         <div>
           <ul>
-            {
-             books.map((book, index) => {
-             return <li key={index}> 
-             {book}
-             </li>
-             })
-            }    
+            {books.lenght >= 1 ? 
+            (
+                books.map((book, index) => {
+                return <li key={index}> {book} </li>
+              })
+             
+            ) :
+            (
+              <p>No existen Libros</p>
+
+            )
+          }
+            
           </ul>
         </div>
     </>

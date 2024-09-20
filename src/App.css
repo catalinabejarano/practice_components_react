@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -68,4 +69,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.white-hr {
+border:#d5a2e3;
+height: 20px;
+width: 60%;
+background-color:white ;
+margin: 80px 0;
+
 }
