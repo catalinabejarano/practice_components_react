@@ -26,6 +26,7 @@ function App() {
         <Child 
         name={name} 
         setName={setName}
+        age={15}
         />
       </header>
     </div>
