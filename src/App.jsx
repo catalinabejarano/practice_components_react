@@ -1,9 +1,13 @@
+import { useState } from 'react';
 import './App.css';
+import { Child } from './components/Child';
 import { MyFirstComponent } from './components/MyFirstComponent';
 import { SecondComponent } from './components/SecondComponent';
 import { ThirdComponent } from './components/ThirdComponent';
 
 function App() {
+
+  const [name, setName] = useState("lina");
 
   return (
     <div className="App">
@@ -19,6 +23,10 @@ function App() {
         last_name = "Bejarano" 
         />
         <hr className="white-hr"/>
+        <Child 
+        name={name} 
+        setName={setName}
+        />
       </header>
     </div>
   )
