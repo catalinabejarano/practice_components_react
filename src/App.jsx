@@ -4,6 +4,7 @@ import { Child } from './components/Child';
 import { MyFirstComponent } from './components/MyFirstComponent';
 import { SecondComponent } from './components/SecondComponent';
 import { ThirdComponent } from './components/ThirdComponent';
+import { FourComponent } from './components/FourComponent';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
         setName={setName}
         age={15}
         />
+         <hr className="white-hr"/>
+        <FourComponent/>
+        <hr className="white-hr"/>
       </header>
     </div>
   )

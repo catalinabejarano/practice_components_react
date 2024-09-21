@@ -14,8 +14,12 @@ export const Child = (props) => {
     <div>
       <h1>Child</h1>
       <p>Nombre Actual: { props.name } </p>
-      <p>Edad {props.age}</p> 
-      <button className="btn btn-primary"  onClick={handledChangeName}>Cambiar Nombre</button>
+      <p>Edad: {props.age}</p> 
+      <button
+       className="btn btn-primary"  
+       onClick={handledChangeName}>
+       Cambiar Nombre
+       </button>
       </div>
   )
 }
