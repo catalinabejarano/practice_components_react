@@ -1,8 +1,11 @@
 
-import PropTypes from 'prop-types'
 
 export const FourComponent = () => {
 
+  const handleClicked = (e, name) => {
+  alert("Has hecho click >>>> " + name);
+
+  }
 
   return (
     <>
@@ -15,10 +18,12 @@ export const FourComponent = () => {
     }}
     >Haz Click !!
     </button>
+    <br/>
+    <button
+    className=" btn btn-success"
+    onClick={(e) => handleClicked (e, "Roger")}>
+      ¡Aqui tambien haz click!
+    </button>
     </>
   )
 }
-
-FourComponent.propTypes = {
-  
- }
